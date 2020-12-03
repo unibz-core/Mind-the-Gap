@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<alloy>
+
+<view>
+
+<defaultnode/>
+
+<defaultedge/>
+
+<node>
+   <type name="date"/>
+   <type name="dateTime"/>
+   <type name="dateTimeStamp"/>
+   <type name="Int"/>
+   <type name="String"/>
+   <type name="TOP"/>
+   <type name="univ"/>
+   <type name="seq/Int"/>
+   <set name="this/AbstractIndividual" type="TOP"/>
+   <set name="this/AbstractIndividualType" type="TOP"/>
+   <set name="this/Airplane" type="TOP"/>
+   <set name="this/Amphibious" type="TOP"/>
+   <set name="this/AntiRigidType" type="TOP"/>
+   <set name="this/Boat" type="TOP"/>
+   <set name="this/BOTTOM" type="TOP"/>
+   <set name="this/Buyer" type="TOP"/>
+   <set name="this/Car" type="TOP"/>
+   <set name="this/Category" type="TOP"/>
+   <set name="this/Collection" type="TOP"/>
+   <set name="this/ComparativeRelationshipType" type="TOP"/>
+   <set name="this/ConcreteIndividualType" type="TOP"/>
+   <set name="this/EndurantType" type="TOP"/>
+   <set name="this/Event" type="TOP"/>
+   <set name="this/EventType" type="TOP"/>
+   <set name="this/ExtrinsicMode" type="TOP"/>
+   <set name="this/FixedCollection" type="TOP"/>
+   <set name="this/Instant" type="TOP"/>
+   <set name="this/IntrinsicAspect" type="TOP"/>
+   <set name="this/IntrinsicMode" type="TOP"/>
+   <set name="this/Kind" type="TOP"/>
+   <set name="this/MaterialRelationshipType" type="TOP"/>
+   <set name="this/Mixin" type="TOP"/>
+   <set name="this/NonRigidType" type="TOP"/>
+   <set name="this/NonSortal" type="TOP"/>
+   <set name="this/Participation" type="TOP"/>
+   <set name="this/Person" type="TOP"/>
+   <set name="this/Phase" type="TOP"/>
+   <set name="this/PhaseMixin" type="TOP"/>
+   <set name="this/PurchasableItem" type="TOP"/>
+   <set name="this/Purchase" type="TOP"/>
+   <set name="this/Quality" type="TOP"/>
+   <set name="this/QualityValue" type="TOP"/>
+   <set name="this/QualityValueAttributionSituation" type="TOP"/>
+   <set name="this/Quantity" type="TOP"/>
+   <set name="this/RelationshipType" type="TOP"/>
+   <set name="this/RigidType" type="TOP"/>
+   <set name="this/Role" type="TOP"/>
+   <set name="this/RoleMixin" type="TOP"/>
+   <set name="this/Seller" type="TOP"/>
+   <set name="this/SemiRigidType" type="TOP"/>
+   <set name="this/Situation" type="TOP"/>
+   <set name="this/SituationType" type="TOP"/>
+   <set name="this/Sortal" type="TOP"/>
+   <set name="this/SubKind" type="TOP"/>
+   <set name="this/TemporaryConstitutionSituation" type="TOP"/>
+   <set name="this/TemporaryInstantiationSituation" type="TOP"/>
+   <set name="this/TemporaryParthoodSituation" type="TOP"/>
+   <set name="this/TemporaryRelationshipSituation" type="TOP"/>
+   <set name="this/Type" type="TOP"/>
+   <set name="this/VariableCollection" type="TOP"/>
+   <set name="this/VehiclePart" type="TOP"/>
+</node>
+
+<node shape="Box" color="Blue">
+   <set name="this/Vehicle" type="TOP"/>
+</node>
+
+<node shape="Ellipse">
+   <set name="this/Wheel" type="TOP"/>
+</node>
+
+<node shape="Hexagon" color="Green">
+   <set name="this/Engine" type="TOP"/>
+</node>
+
+<node showlabel="no">
+   <set name="this/Aspect" type="TOP"/>
+   <set name="this/ConcreteIndividual" type="TOP"/>
+   <set name="this/Endurant" type="TOP"/>
+   <set name="this/ExtrinsicAspect" type="TOP"/>
+   <set name="this/FunctionalComplex" type="TOP"/>
+   <set name="this/Individual" type="TOP"/>
+   <set name="this/Object" type="TOP"/>
+</node>
+
+<node showlabel="no" color="Green">
+   <set name="this/Relator" type="TOP"/>
+</node>
+
+<edge visible="no">
+   <relation name="isComponentOf"> <type name="TOP"/> <type name="TOP"/> </relation>
+   <relation name="isObjectProperPartOf"> <type name="TOP"/> <type name="TOP"/> </relation>
+   <relation name="isProperPartOf"> <type name="TOP"/> <type name="TOP"/> </relation>
+</edge>
+
+<edge visible="no" constraint="no">
+   <relation name="mediates"> <type name="TOP"/> <type name="TOP"/> </relation>
+</edge>
+
+</view>
+
+</alloy>
