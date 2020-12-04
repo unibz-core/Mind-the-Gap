@@ -1879,14 +1879,6 @@ See gufo:TemporaryParthoodSituation for the pattern to represent the relation of
     <!-- https://www.inf.unibz.it/krdb/core/investigation/AmphibiousCar -->
 
     <owl:Class rdf:about="https://www.inf.unibz.it/krdb/core/investigation/AmphibiousCar">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://www.inf.unibz.it/krdb/core/investigation/Boat"/>
-                    <rdf:Description rdf:about="https://www.inf.unibz.it/krdb/core/investigation/Car"/>
-                </owl:unionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://www.inf.unibz.it/krdb/core/investigation/Vehicle"/>
     </owl:Class>
     
@@ -2045,18 +2037,8 @@ See gufo:TemporaryParthoodSituation for the pattern to represent the relation of
     <!-- https://www.inf.unibz.it/krdb/core/investigation/TOP0_1 -->
 
     <owl:NamedIndividual rdf:about="https://www.inf.unibz.it/krdb/core/investigation/TOP0_1">
-        <rdf:type rdf:resource="https://www.inf.unibz.it/krdb/core/investigation/AmphibiousCar"/>
-        <rdf:type rdf:resource="https://www.inf.unibz.it/krdb/core/investigation/Car"/>
-        <investigation:isComponentOfVehicle rdf:resource="https://www.inf.unibz.it/krdb/core/investigation/TOP0_2"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://www.inf.unibz.it/krdb/core/investigation/TOP0_2 -->
-
-    <owl:NamedIndividual rdf:about="https://www.inf.unibz.it/krdb/core/investigation/TOP0_2">
-        <rdf:type rdf:resource="https://www.inf.unibz.it/krdb/core/investigation/AmphibiousCar"/>
         <rdf:type rdf:resource="https://www.inf.unibz.it/krdb/core/investigation/Boat"/>
+        <rdf:type rdf:resource="https://www.inf.unibz.it/krdb/core/investigation/Car"/>
     </owl:NamedIndividual>
     
 
