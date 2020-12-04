@@ -1879,8 +1879,7 @@ See gufo:TemporaryParthoodSituation for the pattern to represent the relation of
     <!-- https://www.inf.unibz.it/krdb/core/investigation/AmphibiousCar -->
 
     <owl:Class rdf:about="https://www.inf.unibz.it/krdb/core/investigation/AmphibiousCar">
-        <rdfs:subClassOf rdf:resource="https://www.inf.unibz.it/krdb/core/investigation/Boat"/>
-        <rdfs:subClassOf rdf:resource="https://www.inf.unibz.it/krdb/core/investigation/Car"/>
+        <rdfs:subClassOf rdf:resource="https://www.inf.unibz.it/krdb/core/investigation/Vehicle"/>
     </owl:Class>
     
 
