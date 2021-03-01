@@ -1,4 +1,4 @@
-module carDL_CAISE2021
+module carDL2021
 
 // General Signatures
 abstract sig TOP { 
