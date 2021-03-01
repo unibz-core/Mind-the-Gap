@@ -1,5 +1,5 @@
-# Mind-the-Gap-CAiSE2021
-Data used in the "Mind the Gap!" CAiSE2021 paper (under review)
+# Mind-the-Gap-2021
+Data used in the "Mind the Gap!" 2021 paper (under review)
 
  * **kb** folder contains the populated models to be used as inputs of the ILP task
  * **.als** file contains the car model encoded into Alloy specifications (as output of the OntoUML converter)
