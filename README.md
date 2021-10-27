@@ -1,5 +1,5 @@
 # Mind-the-Gap-2021
-Data used in the "Mind the Gap!" 2021 paper (under review)
+Data used in "Fumagalli, Mattia; Sales, Tiago Princes; Guizzardi, Giancarlo; “Mind the Gap!”: Learning Missing Constraints from Annotated Conceptual Model Simulations, <em>14th Working Conference on the Practice of Enterprise Modelling, PoEM 2021</em>"
 
  * **kb** folder contains the populated models to be used as inputs of the ILP task
  * **.als** file contains the car model encoded into Alloy specifications (as output of the OntoUML converter)
